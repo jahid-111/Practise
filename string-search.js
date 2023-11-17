@@ -44,5 +44,15 @@ else {
     console.log("Item Is Available")
 }
 
-// console.log(find);
+// console.log(JavaScript.indexOf("J"));
+
+const myName = "Mohd. Jahidul Islam";
+console.log(myName.startsWith("M"))
+// TRUE 
+
+const fileName = "cv.Pdf";
+console.log(fileName.endsWith(".pdf"))
+// FALSE 
+
+
 
