@@ -29,7 +29,7 @@ const convert1 = Math.ceil(num)
 const convert2 = Math.floor(num)
 console.log(convert2);
 
-// ======================== 
+// ======================== RANDOM
 const number = 20.31;
 const out = Math.random(number);
 console.log(out);
