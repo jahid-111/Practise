@@ -64,3 +64,25 @@ console.log("Used math max", sumMax);
 
 const sumMin = Math.min(myNum, yourNum, yoursNum);
 console.log("Used math min", sumMin);
+
+
+
+// ===========  LARGEST NUMBER FROM ARRAY
+
+
+function the_max_number(digit) {
+
+    let theMaxNumber = digit[0];
+    for (let i = 0; i < digit.length; i++) {
+        const values = digit[i];
+
+        if (values > theMaxNumber) {
+            theMaxNumber = values;
+        }
+    }
+    return theMaxNumber;
+}
+
+const digit = [23, 34, 4, 55, 3, 543, 53, 21]
+const output = the_max_number(digit);
+console.log("The Largest number is", output);
