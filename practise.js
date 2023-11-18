@@ -86,3 +86,21 @@ function the_max_number(digit) {
 const digit = [23, 34, 4, 55, 3, 543, 53, 21]
 const output = the_max_number(digit);
 console.log("The Largest number is", output);
+
+
+// ===========  LLOWEST NUMBER FROM ARRAY
+
+
+function the_min_number(num) {
+    let result = num[0];
+    for (i = 0; i < num.length; i++) {
+        const values = num[i];
+        if (values < result) {
+            result = values;
+        }
+    }
+    return result;
+}
+const numbers = [53342, 5343, 63, 645, 2424, 253, 424, 231, 3536, 1432, 5223]
+const print = the_min_number(numbers);
+console.log("The Minimun Num is ", print);
